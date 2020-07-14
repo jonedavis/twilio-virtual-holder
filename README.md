@@ -1,4 +1,4 @@
-# Twilio Virtual Holder
+# Twilio powered virtual place in phone line holder
 
 Tired of waiting on the phone for someone that immediately places you on hold? Use this application to hold your spot in line, and prompt that person to call you back when they answer the call. This application works for simple phone trees, and will timeout if no one chooses to call you back within 30 minutes.
 
@@ -27,7 +27,7 @@ In your `.env` file, set the following values:
 | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------- |
 | `VIRTUAL_HOLDER_PHONE_NUMBER`      | The number you dial to initiate the application. Provision one from [Console](https://www.twilio.com/console/phone-numbers/search). | Yes      |
 | `VIRTUAL_HOLDER_CONFERENCE_NAME`   | The name of the Conference room for the application. There is no need to change this.                                               | Yes      |
-| `VIRTUAL_HOLDER_YOUR_NAME`         | Your name. The person you're dialing will hear "Press any key to call {VIRTUAL_HOLDER_YOUR_NAME} back."                             | Yes      |
+| `VIRTUAL_HOLDER_YOUR_NAME`         | Your name. The person you're dialing will hear "Press any key to call ```{VIRTUAL_HOLDER_YOUR_NAME}``` back."                             | Yes      |
 | `VIRTUAL_HOLDER_YOUR_PHONE_NUMBER` | This is your personal phone number.                                                                                                 | Yes      |
 
 ## Install the Twilio CLI
