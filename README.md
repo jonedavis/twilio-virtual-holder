@@ -1,4 +1,4 @@
-# Twilio powered virtual place in phone line holder
+# Twilio powered virtual place in line holder
 
 Tired of waiting on the phone for someone that immediately places you on hold? Use this application to hold your spot in line, and prompt that person to call you back when they answer the call. This application works for simple phone trees, and will timeout if no one chooses to call you back within 30 minutes.
 
