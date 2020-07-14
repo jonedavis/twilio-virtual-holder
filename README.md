@@ -10,7 +10,7 @@ Tired of waiting on the phone for someone that immediately places you on hold? U
 4. The person on the other end of the call will be brought into the Conference room.
 5. You will receive a callback if you hung up the phone since you were placed on hold.
 
-The application will make an outbound call to that phone number, attempting to bring them into the <Conference> room. When the person on the other end of the call answers, a <Gather> will play for ~30 minutes. The <Gather> says, "Press any key to call `{Your Name}`." Once that person presses any key, they will be brought into the <Conference> room. You will receive a call back from your `VIRTUAL_HOLDER_PHONE_NUMBER` if you hung up. Read the post on [SMS forwarding and responding using Twilio](https://www.twilio.com/blog/sms-forwarding-and-responding-using-twilio-and-javascript) to configure SMS routing.
+The application will make an outbound call to that phone number, attempting to bring them into the <Conference> room. When the person on the other end of the call answers, a Gather will play for ~30 minutes. The Gather says, "Press any key to call `{Your Name}`." Once that person presses any key, they will be brought into the Conference room. You will receive a call back from your `VIRTUAL_HOLDER_PHONE_NUMBER` if you hung up. Read the post on [SMS forwarding and responding using Twilio](https://www.twilio.com/blog/sms-forwarding-and-responding-using-twilio-and-javascript) to configure SMS routing.
   
 If someone dials your `VIRTUAL_HOLDER_PHONE_NUMBER` it will automatically route to your `VIRTUAL_HOLDER_YOUR_PHONE_NUMBER` that you set in the `.env` file.
 
