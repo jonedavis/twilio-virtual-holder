@@ -40,7 +40,7 @@ twilio plugins:install @twilio-labs/plugin-serverless
 ```
 
 ## Set up the application
-1. Cone this repository
+1. Clone this repository
 ```shell
 git clone https://github.com/jonedavis/twilio-virtual-holder.git
 ```
