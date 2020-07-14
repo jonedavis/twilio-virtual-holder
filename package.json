@@ -1,0 +1,19 @@
+{
+  "name": "twilio-virtual-holder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "awesome-phonenumber": "^2.35.0"
+  },
+  "devDependencies": {
+    "twilio-run": "^2.6.0"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
