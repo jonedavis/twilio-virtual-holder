@@ -64,6 +64,8 @@ twilio phone-numbers:update <VIRTUAL_HOLDER_PHONE_NUMBER>
 --sms-url=https://twilio-virtual-holder-0000-dev.twil.io/sms
 ```
 
+Update the `twilio-virtual-holder-0000-dev` subdomain with the subdomain returned from ```twilio serverless:deploy```
+
 ## Using the application
 1. Call ```TWILIO_VIRTUAL_HOLDER_PHONE_NUMBER``` 
 2. Enter the number you would like to dial.
